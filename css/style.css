@@ -1,0 +1,285 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.top-bar {
+
+    background-color: #285cec;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+
+    
+}
+
+.logo {
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.login {
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.leader {
+
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leader .pre-content {
+
+
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sectionA , .sectionB {
+
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionA {
+
+    background-color: white;
+    width: 100%;
+}
+
+.sectionB {
+
+    background-color: #f8f4f4;
+    width: 100%;
+}
+
+.products {
+
+
+    width: 400px ;
+
+}
+
+.products img {
+
+    max-width: 100%;
+}
+
+.description {
+
+    
+    width: 200px;
+
+}
+
+.description h2 {
+
+    color: #090909;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+
+}
+.description p {
+
+    font-size: 10px;
+}
+
+.products , .description {
+
+    
+    height: 300px;
+    
+}
+
+.bigone {
+
+    min-width: 600px;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.columnbig , .column {
+
+    min-height: 300px;
+    border: white 1px dotted;
+}
+
+.columnbig {
+
+    min-width: 200px;
+    background-color: pink;
+}
+
+.column {
+
+    min-width: 100px;
+    background-color: aqua;
+}
+
+.tail {
+
+    width: 600px;
+    margin: auto;
+    padding-top: 10px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    
+}
+
+.tail span {
+
+    background-color: pink;
+    border:  1px dotted black;
+}
+
+hr {
+
+    color: white;
+}
+
+.pretail {
+
+    background-color: black;
+    padding: 10px;
+}
+
+
+a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.black {
+
+    color: white;
+    background-color: black;
+}
+
+.post-content {
+
+    text-align: center;
+    color: white;
+    
+}
+
+.post-content h1 {
+
+    margin-bottom: 20px;
+}
+
+.post-content p {
+
+    margin-bottom: 20px;
+}
+
+.post-content .btn {
+
+    margin-left: 10px;
+}
+
+h1, h2 {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bigone {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.bigone img {
+
+    max-width: 100%;
+}
+
+.bigone p {
+
+    font-size: 10px;
+    max-width: 90%;
+}
+
+.bigone h2 {
+
+    max-width: 90%;
+}
+
+.bigone .btn {
+
+    background-color: #7490dc;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 8px;
+}
+
+.bigone h3 {
+
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
