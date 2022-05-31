@@ -91,7 +91,7 @@
 .products {
 
 
-    width: 400px ;
+    width: 30% ;
 
 }
 
@@ -103,7 +103,7 @@
 .description {
 
     
-    width: 200px;
+    width: 20%;
 
 }
 
@@ -129,7 +129,7 @@
 
 .bigone {
 
-    min-width: 600px;
+    max-width: 50%;
 
 }
 
@@ -150,22 +150,22 @@ footer {
 
 .columnbig {
 
-    min-width: 200px;
+    min-width: 20%;
    
 }
 
 .column {
 
-    min-width: 100px;
+    min-width: 10%;
    
 }
 
 .tail {
 
-    width: 600px;
+    width:60%;
     margin: auto;
     padding-top: 10px;
-    min-height: 50px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -336,7 +336,7 @@ h4 {
 
 .pretail hr {
 
-    width: 600px;
+    width: 60%;
     margin: auto;
     border-color: #7490dc;
 }
