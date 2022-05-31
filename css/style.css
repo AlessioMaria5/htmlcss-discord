@@ -352,6 +352,9 @@ h4 {
 .waves-2
  {
     transform: scaley(-1);
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
 
 
  }
