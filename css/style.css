@@ -340,3 +340,23 @@ h4 {
     margin: auto;
     border-color: #7490dc;
 }
+
+.waves {
+
+    height: 50px;
+
+}
+
+.waves-2
+ {
+    transform: scaley(-1);
+
+
+ }
+
+ .waves-2 img {
+
+    margin: 0px;
+    padding:0px;
+    display: flex;
+ }
