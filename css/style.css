@@ -14,9 +14,11 @@
 
 .top {
 
-    width: 25%;
+    
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     align-items: center;
 
@@ -35,6 +37,12 @@
 
     display: flex;
     justify-content: space-between;
+
+}
+
+.links li {
+
+    margin-left: 10px;
 }
 
 
@@ -187,10 +195,11 @@ hr {
 }
 
 
-a:link {
+.top  {
 
+    list-style: none;
     color: white;
-    text-decoration: none;
+
 }
 
 .btn {
