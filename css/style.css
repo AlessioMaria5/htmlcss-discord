@@ -4,7 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+/* ---------- HEADER --------- */
 .top-bar {
 
     background-color: #285cec;
@@ -40,12 +40,6 @@
 
 }
 
-.links li {
-
-    margin-left: 10px;
-}
-
-
 
 .login {
 
@@ -60,7 +54,7 @@
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 400px;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +69,16 @@
     align-items: flex-end;
     justify-content: center;
 }
+
+.post-content {
+
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+/* ---------- HEADER --------- */
+
+/* -------- SECTIONS --------- */
 
 .sectionA , .sectionB {
 
@@ -99,7 +103,7 @@
 .products {
 
 
-    width: 30% ;
+    width: 40% ;
 
 }
 
@@ -125,8 +129,9 @@
 }
 .description p {
 
-    font-size: 10px;
+    font-size: 14px;
 }
+
 
 .products , .description {
 
@@ -135,11 +140,85 @@
     
 }
 
+
+.post-content {
+
+    text-align: center;
+    color: white;
+    
+}
+
+.post-content h1 {
+
+    margin-bottom: 20px;
+}
+
+.post-content p {
+
+    margin-bottom: 20px;
+}
+
+.post-content .btn {
+
+    margin-left: 10px;
+}
+
+/* -------- SECTIONS -------- */
+
+
+
+/* ------------LAST SECTION------------ */
+
 .bigone {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
     max-width: 50%;
+    text-align: center;
 
 }
+
+.bigone img {
+
+    max-width: 100%;
+}
+
+.bigone p {
+
+    font-size: 14px;
+    max-width: 90%;
+}
+
+.bigone h2 {
+
+    max-width: 90%;
+}
+
+.bigone .btn {
+
+    background-color: #7490dc;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 8px;
+}
+
+.bigone h3 {
+
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* ------------LAST SECTION------------ */
+
+/*-------------FOOTER-----------------*/
 
 footer {
 
@@ -173,16 +252,12 @@ footer {
     width:60%;
     margin: auto;
     padding-top: 10px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-.tail span {
-
-}
 
 hr {
 
@@ -202,103 +277,6 @@ hr {
 
 }
 
-.btn {
-
-    background-color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 12px;
-}
-
-.black {
-
-    color: white;
-    background-color: black;
-}
-
-.post-content {
-
-    text-align: center;
-    color: white;
-    
-}
-
-.post-content h1 {
-
-    margin-bottom: 20px;
-}
-
-.post-content p {
-
-    margin-bottom: 20px;
-}
-
-.post-content .btn {
-
-    margin-left: 10px;
-}
-
-h1, h2 {
-
-    font-family: 'Roboto', sans-serif;
-
-}
-
-h4 {
-
-    color: #7490dc;
-}
-
-.column h4 {
-
-    font-size: 10px;
-}
-.bigone {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    max-width: 600px;
-    text-align: center;
-
-}
-
-.bigone img {
-
-    max-width: 100%;
-}
-
-.bigone p {
-
-    font-size: 10px;
-    max-width: 90%;
-}
-
-.bigone h2 {
-
-    max-width: 90%;
-}
-
-.bigone .btn {
-
-    background-color: #7490dc;
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 8px;
-}
-
-.bigone h3 {
-
-    font-size: 18px;
-    margin-top: 20px;
-    padding: 20px;
-    background-image: url(../img/stars.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
 .lng {
 
@@ -337,6 +315,11 @@ h4 {
     margin-top: 10px;
 }
 
+.column h4 {
+
+    font-size: 10px;
+}
+
 .tail .btn {
 
     background-color: #7490dc;
@@ -349,6 +332,48 @@ h4 {
     margin: auto;
     border-color: #7490dc;
 }
+
+/*-------------FOOTER-----------------*/
+
+/*-------------GENERAL----------------*/
+
+    /* button */
+.btn {
+
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+.black {
+
+    color: white;
+    background-color: black;
+}
+
+    /*button*/
+
+    h1, h2 {
+
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    h4 {
+    
+        color: #7490dc;
+    }
+
+    a {
+
+        padding: 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* WAVES */
 
 .waves {
 
@@ -374,3 +399,8 @@ h4 {
     padding:0px;
     display: flex;
  }
+
+
+    /* WAVES */
+ /*-------------GENERAL----------------*/
+
